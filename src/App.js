@@ -1,10 +1,11 @@
-import { FaAd } from 'react-icons/fa';
+import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
 
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold">Learn React</h1>
-      <FaAd />
+      <Navbar />
+      <Hero />
     </div>
   );
 }
