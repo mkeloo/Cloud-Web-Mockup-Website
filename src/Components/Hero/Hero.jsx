@@ -10,20 +10,20 @@ const Hero = () => {
     >
       <div className="grid md:grid-cols-2 max-w-screen-xl m-auto px-3">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
-          <p className="text-2xl text-gray-500">
+          <p className="text-2xl text-gray-300 mt-12">
             Cheapest Hosting on Planet Earth
           </p>
           <h1 className="pt-1 pb-6 text-5xl md:text-7xl font-bold">
             <span className="text-lightColor">ONNN</span> Web Services
           </h1>
-          <p className="text-base font-light text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            facilis nulla eveniet nemo vitae commodi dolor, amet necessitatibus
-            quaerat! Quam!
+          <p className="font-light text-gray-400 text-xl">
+            We are a group of developers who are passionate about building
+            products that help developers. Amet necessitatibus quaerat! Quam!
+            Lorem ipsum dolor sit amet.
           </p>
           <GreenBtn
             title="sign up"
-            className="capitalize py-3 px-6 sm:w-8/12 my-8"
+            className="capitalize py-3 px-6 sm:w-8/12 my-8 text-xl"
           />
         </div>
 

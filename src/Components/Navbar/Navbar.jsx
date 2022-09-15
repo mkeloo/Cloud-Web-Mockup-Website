@@ -41,7 +41,7 @@ const Navbar = () => {
     <div className="w-screen h-20 z-20 fixed bg-gray-900 text-white">
       <div className="px-3 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h1 className="text-4xl font-bold">Navbar</h1>
+          <h1 className="text-4xl font-bold">Mickey</h1>
         </div>
 
         <ul className="hidden md:flex">
@@ -88,7 +88,7 @@ const Navbar = () => {
                 onClick={() => setNavigation(false)}
                 className="text-3xl font-bold capitalize cursor-pointer"
               >
-                Navbar
+                Mickey
               </h2>
               <div
                 onClick={() => setNavigation(false)}
