@@ -139,7 +139,7 @@ const Navbar = () => {
               </div>
 
               <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
-                <FaTwitter size={25} />
+                <FaTwitch size={25} />
               </div>
             </div>
           </div>
