@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className="grid md:grid-cols-2 max-w-screen-xl m-auto px-3">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
-          <p className="text-2xl text-gray-300 mt-12">
+          <p className="text-2xl text-gray-300 mt-11">
             Cheapest Hosting on Planet Earth
           </p>
           <h1 className="pt-1 pb-6 text-5xl md:text-7xl font-bold">

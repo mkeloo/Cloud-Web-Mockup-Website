@@ -9,7 +9,7 @@ const PriceCard = ({ priceCategory, dollar, features }) => {
         <p>{priceCategory}</p>
       </div>
       <div className="p-4 flex justify-center">
-        <p className="text-6xl font-bold py-4 flex ">
+        <p className="text-7xl font-bold py-4 flex ">
           {`$${dollar} `}
           <span className="text-xl text-indigo-900 flex flex-col justify-end">
             /mo

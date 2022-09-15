@@ -11,6 +11,8 @@ import {
 
 import GreenBtn from '../GreenBtn/GreenBtn';
 
+import { Link } from 'react-scroll';
+
 const Navbar = () => {
   const [navigation, setNavigation] = useState(false);
 
@@ -50,7 +52,9 @@ const Navbar = () => {
               key={id}
               className="capitalize p-4 cursor-pointer hover:text-lightColor duration-200"
             >
-              {link}
+              <Link to={link} smooth duration={500}>
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
@@ -107,7 +111,15 @@ const Navbar = () => {
                   key={id}
                   className="py-4 text-2xl tracking-wider cursor-pointer flex justify-center"
                 >
-                  {link}
+                  <Link
+                    onClick={() => setNavigation(false)}
+                    to={link}
+                    smooth
+                    duration={500}
+                    offset={-75}
+                  >
+                    {link}
+                  </Link>
                 </li>
               ))}
             </ul>

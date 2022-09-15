@@ -33,7 +33,7 @@ const Footer = () => {
                 Subscribe to our newsletter
               </p>
               <form
-                action="https://getform.io/f/fbeaf56f-5d61-4e09-9ea2-84dc28c66a69"
+                action="https://getform.io/f/614be9da-5a06-4dbf-9d9f-4e5170fecb6d"
                 method="POST"
                 className="flex flex-col sm:flex-row"
               >
