@@ -61,7 +61,7 @@ const Support = () => {
         <div className="flex w-full items-center justify-center">
           <GreenBtn
             title="contact us"
-            className="capitalize py-3 px-6 w-1/2 my-12"
+            className="capitalize py-3 px-6 w-1/2 my-12 text-xl hover:font-bold"
           />
         </div>
       </div>
